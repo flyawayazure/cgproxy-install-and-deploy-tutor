@@ -81,7 +81,7 @@ cgproxy是一个Linux客户端的基于cgroupv2的透明代理工具。
 > >
 > >   如果如下图所示，则说明cgproxy可以正常运行，若出现错误则可以根据sysytemd提供的错误信息自行检查。
 > >
-> >   ![cgproxy status](/Users/nicht/Documents/tutors%20%E7%BF%BB%E5%A2%99%20pictures/cgproxy%20pictures/%E6%88%AA%E5%B1%8F2020-10-30%20%E4%B8%8B%E5%8D%888.26.30.png)
+> >   ![cgproxy status](https://ibb.co/QMpY5hy)
 > >
 > >   
 >
