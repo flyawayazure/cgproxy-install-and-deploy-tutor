@@ -63,8 +63,8 @@ cgproxy是一个Linux客户端的基于cgroupv2的透明代理工具。
   其他关于配置优先级，根据项目文档有如下关系。
 
    ```
-   program_noproxy  program_proxy  cgroup_noproxy  cgroup_proxy
-   enable_ipv6 = enable_ipv4  enable_dns  enable_tcp = enable_udp
+   program_noproxy > program_proxy > cgroup_noproxy > cgroup_proxy
+    > enable_ipv6 = enable_ipv4 > enable_dns > enable_tcp = enable_udp
    ```
  
   ### qv2ray配置 
