@@ -76,6 +76,8 @@ cgproxy是一个Linux客户端的基于cgroupv2的透明代理工具。
  ### 启动cgproxy
 
   + 启动cgrproxy需要setcap命令，如果显示找不到该命令则你可能需要安装"libcap"然后运行以下命令（其中v2ray路径根据你的情况自行修改）
+    在更新v2ray后需要重新执行以下命令，arch用户也可以安装 v2ray-cap-git 这个 AUR。
+
  
     ```
     sudo setcap "cap_net_admin,cap_net_bind_service=ep" /usr/bin/v2ray
